@@ -111,7 +111,7 @@ input[type=submit]:hover {
         <label for="email">Email</label>
       </div>
       <div class="col-25">
-      <?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>15)); ?>
+      <?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>20)); ?>
       </div>
     </div>
 
@@ -131,7 +131,7 @@ input[type=submit]:hover {
       <div class="col-25">
       <?php echo $form->textField($model,'last_name',array('size'=>60,'maxlength'=>15)); ?>
       </div>
-    </div>>
+    </div>
 
 	<div class="row">
       <div class="col-25">

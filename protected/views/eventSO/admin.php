@@ -60,7 +60,6 @@ $('.search-form form').submit(function(){
 					'header'=>'Nama Apoteker',
 					'value'=>'$this->grid->getController()->getIdApoteker($data->id_apoteker)'
 				),
-				'periodeSO',
 				'tgl_mulai',
 				'tgl_berakhir',
 				
